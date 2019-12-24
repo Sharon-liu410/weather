@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">和风天气</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forecast">预报</string>
+    <string name="air_quality">空气质量</string>
+    <string name="aqi_value">AQI 指数</string>
+    <string name="pm25_value">PM2.5指数</string>
+    <string name="life_recommendation">生活建议</string>
+    <string name="error_info">出错啦，小笨蛋</string>
+    <string name="celsius">℃</string>
+    <string name="phone_label">Enter Phone Number:</string>
+    <string name="sms_label">Enter SMS Message:</string>
+    <string name="send_sms_label">Send SMS</string>
+    <string name="sample_phone_number">15555215554</string>
+    <string name="sample_city">朝阳</string>
+    <string name="sample_temperature">24℃</string>
+    <string name="sample_range">20~28℃</string>
+    <string name="sample_weather">多云</string>
+    <string name="sample_pm25">42</string>
+    <string name="sample_quality">优</string>
+    <string name="sample_update">16:51</string>
+    <string name="update_time">更新时间:</string>
+</resources>

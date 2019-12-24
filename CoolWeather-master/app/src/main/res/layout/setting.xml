@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:background="#8000">
+
+    <ImageButton
+        android:id="@+id/speak_btn"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/speak"
+        android:background="#00000000"/>
+
+    <ImageButton
+        android:id="@+id/fix_btn"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fix_pos"
+        android:background="#00000000"/>
+
+    <ImageButton
+        android:id="@+id/message_btn"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/message"
+        android:background="#00000000"/>
+
+    <ImageButton
+        android:id="@+id/interval_btn"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/interval"
+        android:background="#00000000"/>
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/notification_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/sunny"
+            android:background="#87cefa"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/notification_city"
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:text="@string/sample_city"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/notification_temperature"
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:text="@string/sample_temperature"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/notification_pm25"
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                android:text="@string/sample_pm25"
+                android:textSize="20sp"
+                android:gravity="end"/>
+
+            <TextView
+                android:id="@+id/notification_quality"
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/sample_quality"
+                android:textSize="20sp"
+                android:gravity="end"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/notification_range"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="@string/sample_range"/>
+
+            <TextView
+                android:id="@+id/notification_weather"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="@string/sample_weather"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:text="@string/update_time"
+                android:gravity="end"
+                android:paddingRight="5dp"/>
+
+            <TextView
+                android:id="@+id/notification_update"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/sample_update"
+                android:gravity="end" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
